@@ -1,0 +1,13 @@
+public class ColorManager {
+    public static BaseColor getColor(String color) {
+        if("red".equals(color)) {
+           return new RedColor();
+        } else if("green".equals(color)) {
+            return new GreenColor();
+        } else if("black".equals(color)) {
+            return new BlackColor();
+        } else {
+            throw new RuntimeException("没有找到类型");
+        }
+    }
+}
