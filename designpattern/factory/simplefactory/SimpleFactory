@@ -1,6 +1,0 @@
-public class SimpleFactory {
-    public static void main(String[] args) {
-        BaseColor baseColor = ColorManager.getColor("rd");
-        baseColor.whatColor();
-    }
-}
