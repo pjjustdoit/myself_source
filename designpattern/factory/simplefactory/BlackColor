@@ -1,5 +1,0 @@
-public class BlackColor extends BaseColor {
-    public void whatColor() {
-        System.out.println("black color");
-    }
-}
