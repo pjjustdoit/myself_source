@@ -1,10 +1,8 @@
-package com.pingan.qhzx.KeyWord;
-
 /**
  * Created by peijian280 on 17/2/20.
  */
 
-/***
+/**
  * volatile:可见性(将新的数据存放于公共内存区域,而不是放在私有区域),原子性(a++等操作都是非原子性操作)
  * 加了volatile以下程序只有两种结果a=3,b=3 or a=1,b=2
  * 不加volatile会出现第三种结果
