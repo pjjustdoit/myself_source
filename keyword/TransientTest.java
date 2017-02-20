@@ -1,4 +1,3 @@
-package com.pingan.qhzx.KeyWord;
 
 import java.io.FileOutputStream;
 import java.io.ObjectOutputStream;
