@@ -23,7 +23,7 @@ public class TransientTest implements Serializable {
             TransientTest tt;
             try {
                 tt = (TransientTest) in.readObject();
-                System.out.println(tt.num);
+                System.out.println(tt.num);      //输出结果：0
             } catch (ClassNotFoundException e) {
                 e.printStackTrace();
             }
