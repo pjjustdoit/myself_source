@@ -1,4 +1,4 @@
-package com.pingan.qhzx.classload;
+package myself_source.classload;
 
 /**
  * Created by peijian280 on 17/2/21.
