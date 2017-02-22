@@ -1,4 +1,4 @@
-package com.pingan.qhzx.KeyWord;
+package myself_source.KeyWord;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
@@ -8,7 +8,7 @@ import java.util.concurrent.atomic.AtomicInteger;
  * Created by peijian280 on 17/2/22.
  * 使用AtomicInteger可以实现int++操作,实现原子操作
  */
-public class VolatileTest2 {
+public class AtomicIntegerTest {
     private static volatile AtomicInteger count = new AtomicInteger(0);
     private static volatile int i = 1;
     private static ExecutorService executorPool = Executors.newFixedThreadPool(1000);
@@ -31,8 +31,8 @@ public class VolatileTest2 {
             executorPool.execute(new Runnable() {
                 @Override
                 public void run() {
-//                    VolatileTest2.addNum();
-                    VolatileTest2.addAtomicInteger();
+//                    AtomicIntegerTest.addNum();
+                    AtomicIntegerTest.addAtomicInteger();
                 }
             });
         }
