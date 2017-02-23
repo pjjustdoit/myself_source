@@ -1,4 +1,4 @@
-package com.pingan.qhzx.thread;
+package myself_source.thread;
 
 /**
  * Created by peijian280 on 17/2/23.
