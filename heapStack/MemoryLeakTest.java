@@ -1,4 +1,4 @@
-package com.pingan.qhzx.heapStack;
+package myself_surce.heapStack;
 
 import java.util.Arrays;
 import java.util.EmptyStackException;
