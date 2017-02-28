@@ -52,3 +52,8 @@ public class DeadLock implements Runnable {
         thread2.start();
     }
 }
+
+/**输出结果
+0
+1
+*/
