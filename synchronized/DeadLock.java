@@ -1,4 +1,4 @@
-package com.pingan.qhzx.Syn;
+package myself_source.Synchronized;
 
 /**
  * Created by peijian280 on 17/1/11.
