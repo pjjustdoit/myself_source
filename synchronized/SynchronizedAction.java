@@ -1,4 +1,4 @@
-package com.pingan.qhzx.Syn;
+package myself_source.synchronized;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
